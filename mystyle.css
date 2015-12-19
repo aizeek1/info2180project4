@@ -1,0 +1,173 @@
+body{
+    background-color:#DEB887
+}
+
+#main {
+width:auto;
+margin: auto;
+font-family:raleway
+}
+
+span {
+color:red
+}
+
+h2 {
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+
+#login {
+width:250px;
+height:400px;
+font-family:raleway;
+padding:20px 50px 25px 50px;
+margin: auto;
+background-color:#E6E6E6;
+position: relative;
+}
+
+#user{
+width:300px;
+height:600px;
+margin: auto;
+vertical-align:middle;
+position:relative;
+padding:10px;
+background-color:#E6E6E6;
+
+}
+
+#my{
+    text-align:center;
+}
+
+
+.back{
+    text-align:center;
+    font-family: Walkway;
+    
+}
+#log{
+    text-align:center;
+    color:#333;
+
+}
+
+#clog{
+    text-align:center;
+    color:white;
+}
+
+nav {
+  background-color: #333;
+  margin: 0;
+  overflow: hidden;
+}
+#imsg {
+  height: 30px;
+  width: 30px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: right;
+  list-style-type:none;
+  text-decoration:none;
+}
+nav > ul > li > form > a {
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+nav > ul > li > #imsg {
+  color: #aaa;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+}
+
+img{
+line-height: 50px;
+margin: 30px 80px;
+display:block;
+}
+
+
+input[type=text],input[type=password]{
+width:250px;
+padding:10px;
+margin-top:8px;
+border:1px solid #0BA3CA;
+padding-left:5px;
+font-size:16px;
+font-family:raleway;
+}
+
+
+input[type=submit] {
+width:80%;
+background-color:#0BA3CA;
+color:#fff;
+border:2px solid #0BA3CA;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+font-family: Times;
+line-height: 30px;
+margin: 30px 30px;
+}
+
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+
+a {
+text-decoration:none;
+color:#6495ed;
+}
+
+i {
+color:#6495ed;
+}
+
+
+#chep{
+    background-color:#333;
+    text-align:center;
+    color:#aaa;
+}
+
+.tab{
+  text-align:left;
+  float:left;
+}
+.ul >li {
+  padding-bottom: 50px;
+  text-decoration:none;
+}
