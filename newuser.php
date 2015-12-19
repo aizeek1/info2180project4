@@ -59,7 +59,7 @@ if(!($_SESSION['logged_in']))
                 <br><div class="note">*Either Administrator or Non-Administrator</div>
                 <input id="position" name="position" placeholder="position" type="text" onchange="return validateForm()"/><br>
                 <br><label>Create a password :</label>
-                <br><div class="note">*Should contain at least one number, one common letter and one capital letter</div>
+                <br><div class="note">*Should contain at least one number, one common letter and one capital letter and be at least 8 charachters long</div>
                 <input id="password" name="password" placeholder="**********" type="password" onchange="return validateForm()"/><br>
                 <br><label>Confirm password :</label></br>
                 <input id="confimpassword" name="confirmpassword" placeholder="**********" type="password" onchange="return validateForm()"/><br>
